@@ -1,8 +1,6 @@
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://dunkhead-f335b4ce798d.herokuapp.com/">
-    <img src="public/img/Dunk Sb Pixel Art/Silver Box/takashi_rotate.png" alt="Logo" width="80" height="43">
-  </a>
+  <img src="public/img/Dunk Sb Pixel Art/Silver Box/takashi_rotate.png" alt="Logo" width="80" height="43">
 
   <h3 align="center" style="font-size: 2.1em; font-weight: bolder;">dunkhead</h3>
 
