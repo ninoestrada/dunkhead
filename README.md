@@ -20,28 +20,53 @@
 
 ![dunkhead home](./public/img/Screenshots/dunkhead-home.png)
 
-**dunkhead** is a web application dedicated to the history, culture, and releases of Nike Dunk SBs. It brings together a curated sneaker collection, release news, and information about sneaker culture in an interactive, retro-inspired experience.
+**dunkhead** is a web application dedicated to the history, culture, and releases of Nike Dunk SBs. It brings together a curated sneaker archive, release news, and information about sneaker culture in an interactive, retro-inspired experience.
 
-The project was inspired by an interest in sneakers and their connection to skateboarding, art, and streetwear. Rather than focusing on buying and selling sneakers, dunkhead explores their history and cultural significance through a creative, visually engaging interface.
+Inspired by the "sneaker game," a term used to describe the culture of collecting, trading, and buying sneakers, dunkhead puts a playful, 8-bit spin on sneaker culture. Rather than focusing on buying and selling sneakers, the project explores their history and cultural significance through a retro video-game aesthetic. The experience features original pixel-art illustrations of sneakers and shoeboxes, hand-drawn in Adobe Illustrator, along with a custom homepage video edited in Adobe Premiere Pro.
+
 
 ### ✨ Features
 
-- Browse a curated collection of Nike Dunk SBs, featuring sneaker artwork, nicknames, and box designs.
-- Explore upcoming, popular, and past sneaker releases using information retrieved from external sources.
-- Discover information about Nike Dunk SB history, terminology, and skate shops.
-- Explore animated sneaker collections and interactive shoe previews through a retro-inspired interface.
+- **Sneaker Collection:** Browse a curated collection of Nike Dunk SBs, featuring original pixel-art illustrations, nicknames, and box designs.
+- **Release Information:** Explore upcoming, popular, and past sneaker releases using information retrieved from external sources.
+- **Interactive Experience:** Explore animated sneaker collections and interactive shoe previews through a retro-inspired interface.
 
-### **🛠️ Tech Stack**
 
-|                    Frontend                     |                 Template Engine                 |                   Backend                    |
-| :---------------------------------------------: | :---------------------------------------------: | :------------------------------------------: |
-| [![JavaScript][JavaScript.com]][JavaScript-url] | [![Handlebars][Handlebars.com]][Handlebars-url] |    [![Node.js][Node.js.com]][Node.js-url]    |
-|       [![JQuery][JQuery.com]][JQuery-url]       |                                                 |    [![Express][Express.com]][Express-url]    |
-|  [![Bootstrap][Bootstrap.com]][Bootstrap-url]   |                                                 |    [![Mongodb][Mongodb.com]][Mongodb-url]    |
-|       [![Nescss][Nescss.com]][Nescss-url]       |                                                 |  [![Mongoose][Mongoose.com]][Mongoose-url]   |
-|          [![GSAP][GSAP.com]][GSAP-url]          |                                                 | [![Puppeteer][Puppeteer.com]][Puppeteer-url] |
-| [![Animatecss][Animatecss.com]][Animatecss-url] |                                                 | [![SneaksAPI][SneaksAPI.com]][SneaksAPI-url] |
-|                                                 |                                                 |  [![MomentJS][MomentJS.com]][MomentJS-url]   |
+<h2>
+  <img src="public/img/Dunk Sb Pixel Art/Silver Box/heineken_rotate.png"
+       alt="Pixel-art Nike Dunk SB"
+       width="40"
+       align="center">
+  What Are Nike Dunk SBs?
+</h2>
+
+**Nike Dunk SBs** are skateboarding sneakers introduced in 2002 by Nike SB (Nike Skateboarding). Originally adapted from the Nike Dunk basketball shoe, they became known for their distinctive colorways, limited releases, and collaborations with artists, brands, and skate shops.
+
+What sets Nike Dunk SBs apart is their connection to local skateboarding communities. From the beginning, Nike SB partnered with independent skate shops that helped support and shape skate culture, a tradition that continues through exclusive releases and its Orange Label program. This connection helped Nike Dunk SBs develop a dedicated following within sneaker culture, bridging skateboarding, streetwear, art, and design.
+
+### 🛠️ Tech Stack
+
+|                     Frontend                     |                    Backend                    |
+| :----------------------------------------------: | :-------------------------------------------: |
+| [![JavaScript][JavaScript.com]][JavaScript-url]  |    [![Node.js][Node.js.com]][Node.js-url]     |
+|       [![jQuery][JQuery.com]][JQuery-url]        |    [![Express][Express.com]][Express-url]     |
+|   [![Bootstrap][Bootstrap.com]][Bootstrap-url]   |    [![MongoDB][Mongodb.com]][Mongodb-url]     |
+|       [![NES.css][Nescss.com]][Nescss-url]       |   [![Mongoose][Mongoose.com]][Mongoose-url]   |
+|          [![GSAP][GSAP.com]][GSAP-url]           | [![Puppeteer][Puppeteer.com]][Puppeteer-url]  |
+| [![Animate.css][Animatecss.com]][Animatecss-url] | [![Sneaks API][SneaksAPI.com]][SneaksAPI-url] |
+|     [![Typed.js][TypedJS.com]][TypedJS-url]      |  [![Moment.js][MomentJS.com]][MomentJS-url]   |
+
+**Template Engine:** [Handlebars](https://handlebarsjs.com/)
+
+**Design & Media:** [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) · [Adobe Premiere Pro](https://www.adobe.com/products/premiere.html)
+
+## 🏗️ Architecture
+
+### System Architecture
+
+The diagram below illustrates dunkhead's architecture, including its browser-based interface, Node.js and Express server, Handlebars template rendering, MongoDB sneaker archive, and external sneaker data integrations.
+
+![dunkhead System Architecture](docs/img/architecture.jpg)
 
 <!-- GETTING STARTED -->
 
@@ -49,12 +74,12 @@ The project was inspired by an interest in sneakers and their connection to skat
 
 ### **💾 Installation**
 
-1. Clone the repository
+1. Clone the repository.
    ```sh
    git clone https://github.com/ninoestrada/dunkhead.git
    cd dunkhead
    ```
-2. Install the dependencies
+2. Install the dependencies.
    ```sh
    npm install
    ```
@@ -111,3 +136,5 @@ Distributed under the MIT License. See [`LICENSE.txt`](LICENSE.txt) for more inf
 [GSAP-url]: https://gsap.com/
 [MomentJS.com]: https://img.shields.io/badge/Moment.js-00C7B7?style=for-the-badge&logo=MomentJS
 [MomentJS-url]: https://momentjs.com/
+[TypedJS.com]: https://img.shields.io/badge/Typed.js-30363D?style=for-the-badge
+[TypedJS-url]: https://github.com/mattboldt/typed.js
